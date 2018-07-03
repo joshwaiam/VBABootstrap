@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Controller.Initialize">
+  <ribbon>
+    <tabs>
+      <tab id="tabSample" label="Sample Tab">
+	  <group id="grpSample" label="Sample Group">
+		<button id="btnSample" label="Sample Button" size="large" image="sample" onAction="Controller.RunRibbonMacro" />
+		<separator id="separator1" />
+	  </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
